@@ -43,7 +43,6 @@ Sultan Alzahrani
 - [LinkedIn](https://www.linkedin.com/in/sultan-bandar-548628283/)
 
 Badr Al-Lehyani
-- [Github]()
-- [Twitter]()
-- [Personal Website]()
-- [LinkedIn]()
+- [Github](https://github.com/badrallehyani)
+- [Twitter](https://x.com/BadrLehyaniDev)
+- [LinkedIn](https://www.linkedin.com/in/badr-al-lehyani-610029244/)]
