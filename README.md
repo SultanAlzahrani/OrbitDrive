@@ -34,6 +34,16 @@ Shows file info, and wheather it got analyzied or not. Shows summary of the file
 3. Add tags or let the system organize content  
 4. Use search to quickly find what you need  
 
-## Notes
+## Made by 
 
-Orbit Drive is designed to be simple, practical, and easy to use within an organization.
+Sultan Alzahrani 
+- [Github](https://github.com/SultanAlzahrani)
+- [Twitter](https://x.com/CEO_allegations)
+- [Personal Website](https://sultanonline.app)
+- [LinkedIn](https://www.linkedin.com/in/sultan-bandar-548628283/)
+
+Badr Al-Lehyani
+- [Github]()
+- [Twitter]()
+- [Personal Website]()
+- [LinkedIn]()
