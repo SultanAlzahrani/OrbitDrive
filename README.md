@@ -18,10 +18,15 @@ Many teams struggle with scattered files and poor search. Orbit Drive keeps ever
 
 ## Snippets 
 
+Home Page:
 ![Home Page](screenshots/home.png)
+Early version of the home page. Current folder called "Commands" and has multiple files
 
-
+File Page:
 ![File Page](screenshots/file.png)
+Shows file info, and wheather it got analyzied or not. Shows summary of the file. Support View, Download, Delete, Edit (soon). 
+
+
 ## Getting Started
 
 1. Set up the server on your local network  
