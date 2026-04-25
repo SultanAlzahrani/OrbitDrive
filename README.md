@@ -14,7 +14,7 @@ It allows teams to store files, organize them with tags, search using simple lan
 
 ## Why Orbit Drive?
 
-Many teams struggle with scattered files and poor search. Orbit Drive keeps everything in one place and makes it easier to find and understand information without relying on external cloud services.
+Many teams struggle with scattered files and poor search. Orbit Drive keeps everything in one place and makes it easier to find and understand information without relying on external cloud services. No need to subscribe for cloud services and worrying about price changing and getting your data used in Ai Training. 
 
 ## Getting Started
 
