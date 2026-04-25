@@ -45,4 +45,4 @@ Sultan Alzahrani
 Badr Al-Lehyani
 - [Github](https://github.com/badrallehyani)
 - [Twitter](https://x.com/BadrLehyaniDev)
-- [LinkedIn](https://www.linkedin.com/in/badr-al-lehyani-610029244/)]
+- [LinkedIn](https://www.linkedin.com/in/badr-al-lehyani-610029244/)
