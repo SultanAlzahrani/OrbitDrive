@@ -18,14 +18,29 @@ Many teams struggle with scattered files and poor search. Orbit Drive keeps ever
 
 ## Snippets 
 
-Home Page:
-![Home Page](screenshots/home.png)
+Welcome Page:
+![Home Page](screenshots/welcome.png)
 Early version of the home page. Current folder called "Commands" and has multiple files
 
-File Page:
-![File Page](screenshots/file.png)
-Shows file info, and wheather it got analyzied or not. Shows summary of the file. Support View, Download, Delete, Edit (soon). 
+Home or Root Page:
+![File Page](screenshots/home.png)
+Shows file info, and wheather it got analyzied or not. Shows summary of the file. Support View, Download, Delete, Edit. 
 
+Recent Page:
+![File Page](screenshots/recent.png)
+Shows recent uploaded files.
+
+Starred Page:
+![File Page](screenshots/starred.png)
+Here you can view your starred files and folders. 
+
+Dashboard Page:
+![File Page](screenshots/dashboard.png)
+View some analytics about your current storage. 
+
+Duplicate Page:
+![File Page](screenshots/duplicate.png)
+Here you can search and detect duplicate files based on a similarity threshold. 
 
 ## Getting Started
 
