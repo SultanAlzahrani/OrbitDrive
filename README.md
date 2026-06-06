@@ -1,83 +1,288 @@
 # Orbit Drive
 
-Orbit Drive is a self-hosted file system for organizations that want to manage their data on a private network.
+**Orbit Drive** is a self-hosted intelligent file management system designed for organizations that require complete control over their data. It enables teams to securely store, organize, search, and analyze files within a private network without relying on third-party cloud providers.
 
-It allows teams to store files, organize them with tags, search using simple language, and generate short summaries for text and audio content.
+By combining local-first storage with AI-powered features, Orbit Drive helps users find information faster, maintain data privacy, and improve file organization.
 
-## Features
+---
 
-- Local, self-hosted storage
-- File tagging for better organization
-- Search based on meaning, not just file names
-- Text and audio summarization
-- Private and controlled data environment
+## Key Features
+
+- **Self-Hosted Storage** – Keep all data within your organization's infrastructure.
+- **Smart File Tagging** – Automatically organize files using generated tags.
+- **Semantic Search** – Search by meaning instead of exact file names or keywords.
+- **AI-Powered Summarization** – Generate summaries for text and audio content.
+- **Storage Analytics Dashboard** – Monitor storage usage and file statistics.
+- **Advanced File Management** – Move, star, delete, download, and organize files with ease.
+- **Privacy First** – Your data never leaves your network.
+
+---
 
 ## Why Orbit Drive?
 
-Many teams struggle with scattered files and poor search. Orbit Drive keeps everything in one place and makes it easier to find and understand information without relying on external cloud services. No need to subscribe for cloud services and worrying about price changing and getting your data used in Ai Training. 
+Organizations often struggle with:
 
-## Snippets 
-Purpose of this Readme is to showcase our work to the public through detailed screenshots. Look the bottom section to know more on how to run it yourself. 
+- Scattered files across multiple systems
+- Difficult and inefficient search experiences
+- Rising cloud storage costs
+- Privacy concerns regarding third-party cloud providers
+- Uncertainty about how uploaded data may be used
 
-Welcome Page:
-![Home Page](screenshots/welcome.png)
-Early version of the home page. Current folder called "Commands" and has multiple files
+Orbit Drive addresses these challenges by providing a centralized, self-hosted solution that keeps your data under your control while enhancing productivity through AI-powered organization and search capabilities.
 
-Home or Root Page:
+---
+
+# Application Overview
+
+The purpose of this README is to showcase the major features of Orbit Drive through screenshots. Instructions for running the project are provided near the end of this document.
+
+---
+
+## Welcome Page
+
+![Welcome Page](screenshots/welcome.png)
+
+An early version of the landing page. The example shown contains a folder named **Commands** with multiple files.
+
+---
+
+## Home (Root Directory)
+
 ![Home Page](screenshots/home.png)
-Shows file info, and wheather it got analyzied or not. Shows summary of the file. Support View, Download, Delete, Edit. 
 
-Recent Page:
+The main file browser interface.
+
+Features include:
+
+- File and folder navigation
+- Analysis status indicators
+- Generated summaries
+- View, Download, Edit, and Delete operations
+
+---
+
+## Recent Files
+
 ![Recent Page](screenshots/recent.png)
-Shows recent uploaded files.
 
-Starred Page:
+Displays recently uploaded files for quick access.
+
+---
+
+## Starred Items
+
 ![Starred Page](screenshots/starred.png)
-Here you can view your starred files and folders. 
 
-Dashboard Page:
+View all starred files and folders in one location.
+
+---
+
+## Dashboard
+
 ![Dashboard Page](screenshots/dashboard.png)
-View some analytics about your current storage. 
 
-Duplicate Page:
+Provides analytics and statistics related to storage usage and system activity.
+
+---
+
+## Duplicate Detection
+
 ![Duplicate Page](screenshots/duplicate.png)
-Here you can search and detect duplicate files based on a similarity threshold. 
 
-Folder View:
+Identify potentially duplicate files using a configurable similarity threshold.
+
+---
+
+## Folder View
+
 ![Folder Page](screenshots/folder.png)
-This shows the content inside CPCS449-Showcase folder with supported operations like sort by name, date, size, and also the ability to select multiple entries and do mass delete, download, starring. 
 
-File View:
+Example view of the **CPCS449-Showcase** folder.
+
+Supported operations include:
+
+- Sort by name
+- Sort by date
+- Sort by size
+- Multi-selection
+- Bulk delete
+- Bulk download
+- Bulk starring
+
+---
+
+## File Details View
+
 ![File Page](screenshots/file.png)
-Shows the clicked file with its path. Buttons to reload, view, download, delete. Also some meta data and the tags generated by the analysis model. and on the right you can see the status of the file and a short summary.
 
-## Operations Snippets
+Displays detailed information about a selected file.
 
-Upload operation:
+Features include:
+
+- File path navigation
+- View, Download, Delete, and Refresh actions
+- Metadata display
+- AI-generated tags
+- Processing status
+- Generated summary
+
+---
+
+# File Operations
+
+## Uploading Files
+
+The upload workflow supports drag-and-drop file uploads and progress tracking.
+
 ![Upload Page](screenshots/upload.png)
-![Upload2 Page](screenshots/upload2.png)
-![Upload3 Page](screenshots/upload3.png)
-![Upload4 Page](screenshots/upload4.png)
-![Upload5 Page](screenshots/upload5.png)
-![Upload6 Page](screenshots/upload6.png)
 
+![Upload Page](screenshots/upload2.png)
 
-## Getting Started
+![Upload Page](screenshots/upload3.png)
 
-1. Set up the server on your local network  
-2. Upload files through the web interface  
-3. Add tags or let the system organize content  
-4. Use search to quickly find what you need  
+![Upload Page](screenshots/upload4.png)
 
-## Made by 
+![Upload Page](screenshots/upload5.png)
 
-Sultan Alzahrani 
-- [Github](https://github.com/SultanAlzahrani)
-- [Twitter](https://x.com/CEO_allegations)
-- [Personal Website](https://sultanonline.app)
-- [LinkedIn](https://www.linkedin.com/in/sultan-bandar-548628283/)
+![Upload Page](screenshots/upload6.png)
 
-Badr Al-Lehyani
-- [Github](https://github.com/badrallehyani)
-- [Twitter](https://x.com/BadrLehyaniDev)
-- [LinkedIn](https://www.linkedin.com/in/badr-al-lehyani-610029244/)
+---
+
+## Context Menu Operations
+
+### Single Item Operations
+
+![SingleOperation](screenshots/singleoperation.png)
+
+Actions available when right-clicking a single file or folder.
+
+---
+
+### Batch Operations
+
+![BatchOperation](screenshots/batchoperation.png)
+
+Actions available when multiple items are selected.
+
+---
+
+## Moving Files and Folders
+
+Example workflow for moving folder contents using the **Move To** operation.
+
+### Step 1
+
+![Move](screenshots/move.png)
+
+### Step 2
+
+![Move2](screenshots/move2.png)
+
+### Step 3
+
+![Move3](screenshots/move3.png)
+
+The selected files and folders are successfully transferred to the destination folder.
+
+---
+
+# Search System
+
+## Search Bar
+
+![Searchbar](screenshots/searchbar.png)
+
+The search component allows users to configure:
+
+### Search Types
+
+- **Keyword Search** – Traditional text matching
+- **Semantic Search** – Meaning-based retrieval
+
+### Search Scope
+
+- **Global Search** – Search across all files
+- **Local Search** – Search within the current folder
+
+---
+
+## Semantic Search Example
+
+![SearchbarResults](screenshots/searchresults.png)
+
+The returned results do not necessarily contain the exact search terms. Instead, Orbit Drive retrieves files whose content is semantically related to the query, demonstrating meaning-based search capabilities.
+
+---
+
+# Duplicate Detection
+
+## Configure Similarity Threshold
+
+![dup1](screenshots/dup1.png)
+
+Choose the similarity threshold used to detect duplicate or near-duplicate files.
+
+---
+
+## Duplicate Detection Results
+
+![dup2](screenshots/dup2.png)
+
+Results are grouped by similarity.
+
+Users can:
+
+- Open files
+- Compare content
+- Review detected duplicates
+- Decide which files should be retained or removed
+
+---
+
+# Getting Started
+
+## Prerequisites
+
+- A machine capable of running the Orbit Drive server
+- Access to a local network
+- Python and required project dependencies
+
+## Running Orbit Drive
+
+1. Clone the repository.
+2. Install the required dependencies.
+3. Configure the server environment.
+4. Start the backend services.
+5. Launch the web interface.
+6. Open the application in your browser.
+
+## Basic Usage
+
+1. Upload files through the web interface.
+2. Organize files using folders and tags.
+3. Allow the AI processing pipeline to analyze uploaded content.
+4. Use semantic search to locate information quickly.
+5. View generated summaries and metadata.
+
+---
+
+# Project Team
+
+## Sultan Alzahrani
+
+- GitHub: https://github.com/SultanAlzahrani
+- Twitter/X: https://x.com/CEO_allegations
+- Website: https://sultanonline.app
+- LinkedIn: https://www.linkedin.com/in/sultan-bandar-548628283/
+
+## Badr Al-Lehyani
+
+- GitHub: https://github.com/badrallehyani
+- Twitter/X: https://x.com/BadrLehyaniDev
+- LinkedIn: https://www.linkedin.com/in/badr-al-lehyani-610029244/
+
+---
+
+## License
+
+This project was developed as part of an academic and research initiative focused on intelligent, privacy-preserving file management systems.
