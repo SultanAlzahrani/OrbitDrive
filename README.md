@@ -23,24 +23,32 @@ Welcome Page:
 Early version of the home page. Current folder called "Commands" and has multiple files
 
 Home or Root Page:
-![File Page](screenshots/home.png)
+![Home Page](screenshots/home.png)
 Shows file info, and wheather it got analyzied or not. Shows summary of the file. Support View, Download, Delete, Edit. 
 
 Recent Page:
-![File Page](screenshots/recent.png)
+![Recent Page](screenshots/recent.png)
 Shows recent uploaded files.
 
 Starred Page:
-![File Page](screenshots/starred.png)
+![Starred Page](screenshots/starred.png)
 Here you can view your starred files and folders. 
 
 Dashboard Page:
-![File Page](screenshots/dashboard.png)
+![Dashboard Page](screenshots/dashboard.png)
 View some analytics about your current storage. 
 
 Duplicate Page:
-![File Page](screenshots/duplicate.png)
+![Duplicate Page](screenshots/duplicate.png)
 Here you can search and detect duplicate files based on a similarity threshold. 
+
+Folder View:
+![Folder Page](screenshots/folder.png)
+This shows the content inside CPCS449-Showcase folder with supported operations like sort by name, date, size, and also the ability to select multiple entries and do mass delete, download, starring. 
+
+File View:
+![File Page](screenshots/folder.png)
+This shows the content inside CPCS449-Showcase folder with supported operations like sort by name, date, size, and also the ability to select multiple entries and do mass delete, download, starring. 
 
 ## Getting Started
 
